@@ -6,4 +6,6 @@ x = 1+2
 student_count = 30
 print(student_count)
 print(2 < 4)
-course_name = "Python Programming"
+course_name = "Python Programming "
+course_length = len(course_name)
+print(course_length)
