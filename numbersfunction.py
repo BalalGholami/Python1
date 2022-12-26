@@ -1,0 +1,6 @@
+x = input("Enter your number: ")
+print(type(x))
+xint = int(x)
+xflout = float(x)
+print(type(xint))
+print(type(xflout))
