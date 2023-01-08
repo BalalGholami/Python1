@@ -1,16 +1,22 @@
 # Dictionary
 
-dictionary1 = {"x": 1, "y": 3, "z": 7}
+dictionary1 = {"x1": 1, "y1": 3, "z1": 7}
 
-dictionary2 = dict(x=1, y=5, z=9)
+dictionary2 = dict(x2=1, y2=5, z2=9)
 
-print(dictionary1)
-print(dictionary2)
-print(dictionary1["z"])
-print(dictionary2.get("a", "Not Exists"))
-print(dictionary1.get("x", "Not Exists"))
+print(f"Dictionary1: {dictionary1}")
+print(f"Dictionary2: {dictionary2}")
+print(dictionary1["z1"])
+print(dictionary2.get("a", "a Not Exists"))
+print(dictionary1.get("x", "x Not Exists"))
 print(dictionary1.keys())
 print(dictionary1.values())
 print(dictionary1.items())
 if "x" in dictionary1:
-    print("Exists")
+    print("x Exists")
+else:
+    print("x Not Existst")
+del dictionary1["x1"]
+for x in dictionary1.items():
+    print(x)
+print(f"Dictionary1: {dictionary1}")
