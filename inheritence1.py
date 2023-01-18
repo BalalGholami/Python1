@@ -23,3 +23,7 @@ m1.Walk()
 m2 = Fish()
 m2.eat()
 print(m2.age)
+
+print(isinstance(m2, object))
+print(issubclass(Mammal, Animal))
+print(issubclass(Mammal, Animal))
