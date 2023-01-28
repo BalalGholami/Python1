@@ -1,0 +1,1 @@
+print("contact.py initialized")
