@@ -1,5 +1,8 @@
 # Module1
 
+print("Sales initialized")
+
+
 def calc_tax():
     print("Calc Tax")
 
