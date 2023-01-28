@@ -6,3 +6,6 @@
 
 from ecommerce.shopping import sales
 from ecommerce.customer import contact
+
+print(dir(sales))
+print(dir(contact))
