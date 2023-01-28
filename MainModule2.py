@@ -9,3 +9,7 @@ from ecommerce.customer import contact
 
 print(dir(sales))
 print(dir(contact))
+
+print(sales.__name__)
+print(sales.__package__)
+print(sales.__file__)
