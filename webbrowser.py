@@ -1,12 +1,7 @@
 # webbrowser
 
 
-import webbrowser
+from webbrowser import open
 
 
-
-
-webbrowser.open ("http://www.balal-gholami.ir")
-
-
-
+open("http://www.balal-gholami.ir")
