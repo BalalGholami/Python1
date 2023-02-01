@@ -4,6 +4,9 @@ from zipfile import ZipFile
 print ("Zip file reading start:")
 
 with ZipFile("files.zip") as zip:
-    print(zip.namelist())
+    name = zip.namelist()
+    inf = zip.getinfo(zip.namelist()[1])
+    print(inf.file_size)
+    print(inf.compress_size)
     
 
