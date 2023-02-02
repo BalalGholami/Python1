@@ -1,5 +1,3 @@
-# zip files
-
-from pathlib import Path
+# import zipfiles
 
 from zipfile import ZipFile
