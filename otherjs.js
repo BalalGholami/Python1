@@ -1,0 +1,1 @@
+console.log("Hi python from javascript")
